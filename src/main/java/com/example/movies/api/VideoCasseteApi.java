@@ -4,7 +4,6 @@ import com.example.movies.dao.entities.VideoCassete;
 import com.example.movies.manager.VideoCasseteManager;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.beans.factory.annotation.Autowired;
-
 import java.util.Optional;
 
 @RestController
@@ -43,4 +42,3 @@ public class VideoCasseteApi {
         videoCassetes.delete(index);
     }
 }
-
